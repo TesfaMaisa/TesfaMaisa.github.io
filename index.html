@@ -8,7 +8,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <style> body{ background-color: rgb(2, 21, 73)};</style>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50"> 
+  <style> body{ background-color: rgb(2, 21, 73)};</style>
     <h1 style="color: rgb(255, 255, 255); font-weight: bold; font-family:courier"></p>
       <div class="container-fluid">
     <nav class="navbar navbar-expand-sm bg-dark border rounded-pill navbar-dark fixed-top">
@@ -19,6 +20,10 @@
         </button> 
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
+              <li class="nav-item">
+              </li><a class="nav-link" href="#section1">Julkaisu Vuodet</a></li>
+              <li class="nav-item">
+              </li><a class="nav-link" href="#section2">Fun Fact!</a></li>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="font-family:courier">Boot-Up Äänet</a>
                 <ul class="dropdown-menu" style="background-color: rgb(143, 141, 141);font-style: oblique;" >
@@ -67,6 +72,7 @@
     </div>
 </div>
 <br>
+<div id="section1">
     <div class="container-fluid">
       <div class="row">
       <div class="col p-4 border bg-dark text-light" style="font-family:courier"><b><center>Julkaisu vuodet</center></b></div>
@@ -95,6 +101,7 @@
       </div>
     </div>
   </div>
+  
    
     <center><br><div class="spinner-border text-danger"></center>
       <br>
@@ -107,8 +114,9 @@
     </div>
     
     <center><br><div class="spinner-border text-info"></center>
-    
+      <div id="section2">
       <br>
+      
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -171,7 +179,7 @@
             </div>
           </div>
       </div>
-
+    
      <br>
         <h2>MARKKINOINTI ISKULAUSEET</h2>           
         <table class="table table-dark table-striped">
